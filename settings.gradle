@@ -1,0 +1,9 @@
+rootProject.name = 'Thesis-Auto'
+include(':thesisauto-global', ':thesisauto-core', ':thesisauto-gui', ':thesisauto-web', ':thesisauto-portal', ':thesisauto-mobile', ':thesisauto-mobile-rest')
+project(':thesisauto-global').projectDir = new File(settingsDir, 'modules/global')
+project(':thesisauto-core').projectDir = new File(settingsDir, 'modules/core')
+project(':thesisauto-gui').projectDir = new File(settingsDir, 'modules/gui')
+project(':thesisauto-web').projectDir = new File(settingsDir, 'modules/web')
+project(':thesisauto-portal').projectDir = new File(settingsDir, 'modules/portal')
+project(':thesisauto-mobile').projectDir = new File(settingsDir, 'modules/mobile')
+project(':thesisauto-mobile-rest').projectDir = new File(settingsDir, 'modules/mobile-rest')
